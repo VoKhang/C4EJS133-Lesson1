@@ -1,0 +1,23 @@
+#bottomborder {border-bottom: 4px dashed;
+width:80%;}
+
+.headercolor {
+    color:#bf0221}
+
+.button {
+    background-color: #f9fff9;
+    border: line;
+    color: rgb(21, 19, 19);
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.radio-input:checked+ .radio-label {color:#bf0221}
+
+.test-li:last-child {color:#bf0221}
+.test-li2:first-child {color:#bf0221}
