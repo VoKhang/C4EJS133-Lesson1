@@ -21,3 +21,52 @@ width:80%;}
 
 .test-li:last-child {color:#bf0221}
 .test-li2:first-child {color:#bf0221}
+
+
+#parent {
+    position: relative;
+    margin:auto;
+    Width: 1980px;
+    Height: auto;
+    
+}
+
+#child01 {
+    position: absolute;
+    margin:auto;
+    padding: 15px;
+    top:30px;
+
+
+}
+
+#child02 {
+    position: absolute;
+    margin: auto;
+    padding:15px;
+    top: 450px;
+
+}
+#child03 {
+    position:absolute;
+    margin:auto;
+    top: 1300px;
+
+
+}
+
+#topmenu {
+    position: fixed;
+    Margin: auto;
+    width:1980px;
+    height:auto;
+    background-color:beige
+    }
+#buttonbottom {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+
+
+
