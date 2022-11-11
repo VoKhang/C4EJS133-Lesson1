@@ -3,8 +3,8 @@
      display: flex;
      width: 1500px;
      height: 700px;
-     background-color:rgb(195, 195, 195);
-     border: 2px solid;
+     background-color:rgb(255, 255, 255);
+     border: 0px solid;
      flex-direction:row;
      justify-content:center;
      align-items:center;
@@ -14,9 +14,9 @@
     
     /* display: flex; */
     width: 400px;
-    height: 600px;
-    border: 3px solid black;
-    box-shadow: 0 5px 15px #52ed83;
+    height: 500px;
+    border: 0px none black;
+    box-shadow: 5px 5px 1px #959695;
     font-size: 18px;
     background-color: rgb(228, 228, 228);
     justify-content: center;
@@ -30,8 +30,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 0px;
 
                 }
 
@@ -40,11 +40,11 @@
     display: inline-block;
     align-items: center;
     justify-content: center;
+    
                 }
 
 .Bordernhomatkhau {
     background-color:rgb(174, 168, 157);
-
 }
 
 .button{
