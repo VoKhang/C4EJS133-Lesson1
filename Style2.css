@@ -1,0 +1,57 @@
+ .FlexFunction {
+     
+     display: flex;
+     width: 1500px;
+     height: 700px;
+     background-color:rgb(195, 195, 195);
+     border: 2px solid;
+     flex-direction:row;
+     justify-content:center;
+     align-items:center;
+                
+                }
+.FlexBox {
+    
+    /* display: flex; */
+    width: 400px;
+    height: 600px;
+    border: 3px solid black;
+    box-shadow: 0 5px 15px #52ed83;
+    font-size: 18px;
+    background-color: rgb(228, 228, 228);
+    justify-content: center;
+    align-items: center;
+
+                }
+
+.Center {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+                }
+
+.Formcenter {
+    flex-direction: row;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+                }
+
+.Bordernhomatkhau {
+    background-color:rgb(174, 168, 157);
+
+}
+
+.button{
+    padding:15px 32px;
+    border-radius: 15px; 
+    text-align:center;
+    cursor: pointer;
+    
+}
+
