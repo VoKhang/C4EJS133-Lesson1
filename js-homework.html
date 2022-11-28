@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework november</title>
+</head>
+<body>
+<!-- <p>Bảng cửu chương của bạn là:</p>
+<p id="bangcuuchuong"></p> -->
+
+<p>Đây là kết quả của bạn</p>
+<p id="checkingsobatky"></p>
+
+
+    <script>
+// Bài tập 01: Bảng cửu chương
+
+        // let x = prompt("Bang cuu chuong so ?");
+        // let a =''
+        // for(let i=1;i<=10;i++){
+            
+        //     a += x + " x " + i + " = " + x*i +"<br>";
+        // }
+
+        // document.getElementById("bangcuuchuong").innerHTML=a
+
+// Bài tập 02 + 03: Tách chuỗi và làm phép tính đồng thời thể hiện số chẵn - lẽ.
+
+            // let num = prompt("Nhập công thức toán học 1 chữ số");
+            
+            // let result = 0
+            // num = num.split('')
+
+            // let kytu01 = num[0]
+            // let kytu02 = num[1]
+            // let kytu03 = num[2]
+
+            // while(true){
+            //     if(kytu02 =="*") {
+            //         result = kytu01*kytu03
+            //         break;
+            //     } 
+            //     else if (kytu02 =="/") {
+            //         result = kytu01/kytu03
+            //         break;
+            //     } 
+            //     else if (kytu02 =="-") {
+            //         result = kytu01-kytu03
+            //         break;
+            //     } 
+            //     else if (kytu02 =="+") {
+            //         result = Number(kytu01) + Number(kytu03)
+            //         break;
+            //     } 
+            //     else{
+            //         alert("Dữ liệu không chính xác");
+            //         let num = prompt("Nhập công thức toán học 1 chữ số");
+            //         kytu01 = num[0]
+            //         kytu02 = num[1]
+            //         kytu03 = num[2]
+            //         // break;
+            //     }
+
+
+            // }
+
+            //     result = result % 2 == 0 ? "Kết quả là số chẵn : " + result : 'Kết quả là số lẻ : ' + result
+            //     alert(result)
+
+// Bài tập 04 Viết hàm kiểm tra số chẵn
+
+                // let x = prompt('Nhập số bất kỳ kiểm tra chẵn hoặc lẻ')
+
+                // function checking(sobatky) {
+                //     return sobatky % 2 == 0 ? 'Đây là số chẵn.' : 'Đây là số lẻ';
+                // }
+
+                // alert(checking())
+
+
+
+
+// Bài tập 05 Tính tổng các số chẵn trong mảng
+
+        //  function checking(sobatky) {
+        //        return sobatky % 2 == 0 ? true : false
+        //         }
+
+        //         const arraynumber = [3,2,9,12,15,20,31,33]
+        //         result = 0
+        //         for(let i=0; i < arraynumber.length ; i++){
+        //             if(checking(arraynumber[i])){
+        //                 result += arraynumber[i]
+        //             }
+
+        //         }
+
+        //         console.log(result);
+
+
+// Bài tập 06 Nhân đôi các phần tử trong mảng
+                // const array2 = [3,2,9,12,15,20,31,33]
+
+                // for(let i=0; i<array2.length; i++){
+                //     array2[i] = array2[i] * 2
+                // }
+
+                // array2.push('a')
+                // array2.push('b')
+                // array2.push('c')
+                // array2.push('d')
+                // array2.pop()
+                // array2.splice(9,1)
+                // console.log(array2);
+
+// Bài tập tìm điểm học viên
+
+const student = [
+            {
+                name: 'Name 1',
+                mark: 10
+            },
+            {
+                name: 'Name 2',
+                mark: 58
+            },
+            {
+                name: 'Name 3',
+                mark: 7
+            },
+            {
+                name: 'Name 4',
+                mark: 15
+            },
+            {
+                name: 'Name 5',
+                mark: 33
+            },
+            {
+                name: 'Name 6',
+                mark: 76
+            },
+            {
+                name: 'Name 7',
+                mark: 89
+            }
+        ]
+
+            let studentinfo = null
+            let score7 = 7
+            let minscore = 100
+
+   
+        // học sinh có điểm > 7
+            // for(let element of student) 
+            // {
+            //     if (element.mark > score7){
+                    
+            //         studentinfo = element
+            //     }
+            //     console.log(studentinfo);
+            // }
+        
+        // key graduated true or false
+            // function graduate(mark)
+            //     {
+            //         return mark > 8 ? true : false
+            //     }
+
+            // for(let element of student)
+            //     {
+            //         console.log(graduate(element.mark));
+            //     }
+
+        // học viên có điểm thấp nhất
+            for(let element of student) 
+            {
+                if (minscore > element.mark){
+                    minscore = element.mark
+                    studentinfo = element
+                }
+            }
+            console.log(studentinfo);
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
